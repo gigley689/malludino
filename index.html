@@ -111,7 +111,8 @@ rishiDinoImg.src = "rishi.png";
 
 /* Death Sound */
 const deathSound = new Audio("ayoo.mp3");
-
+const jumpSound = new Audio("jumpeffect.rishi.mp3");
+jumpSound.volume = 1;
 let savedUsername="";
 document.getElementById("confirmNameBtn").addEventListener("click",()=>{
 const input=document.getElementById("usernameInput").value.trim();
@@ -173,9 +174,14 @@ gameLoop();
 }
 
 function jump(){
-if(!jumping&&gameRunning){
-velocity=-14;
-jumping=true;
+if(!jumping && gameRunning){
+velocity = -14;
+jumping = true;
+
+try{
+jumpSound.currentTime = 0;
+jumpSound.play();
+}catch(e){}
 }
 }
 document.addEventListener("keydown",jump);
