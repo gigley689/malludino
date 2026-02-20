@@ -2,11 +2,11 @@
   "modes": [
     {
       "name": "Normal",
-      "image": "https://github.com/ZebbyAnnan-pixel/malludino.gg/blob/bc8513884b5c5403a518432202a3fb9e95526644/surya.png"
+      "image": "https://raw.githubusercontent.com/ZebbyAnnan-pixel/malludino.gg/bc8513884b5c5403a518432202a3fb9e95526644/surya.png"
     },
     {
       "name": "Rishi Mode",
-      "image": "https://github.com/ZebbyAnnan-pixel/malludino.gg/blob/417781b39e104b446167c17efef6b4880b498a29/rishi.png"
+      "image": "https://raw.githubusercontent.com/ZebbyAnnan-pixel/malludino.gg/417781b39e104b446167c17efef6b4880b498a29/rishi.png"
     }
   ]
 }
