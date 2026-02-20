@@ -1,7 +1,12 @@
 {
   "modes": [
-    "Classic",
-    "Arcade",
-    "Hardcore"
+    {
+      "name": "Normal",
+      "image": "https://raw.githubusercontent.com/YOUR_USERNAME/mallugg/main/dino.png"
+    },
+    {
+      "name": "Rishi Mode",
+      "image": "https://raw.githubusercontent.com/YOUR_USERNAME/mallugg/main/dino.png"
+    }
   ]
 }
